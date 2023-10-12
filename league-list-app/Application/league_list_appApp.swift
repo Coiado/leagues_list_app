@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct league_list_appApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+    
+    
 }
